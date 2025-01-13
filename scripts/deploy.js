@@ -75,7 +75,7 @@ async function main() {
 
   // Save deployment information
   const deploymentInfo = {
-    chainId: 656476,
+    chainId: 5115,
     contracts: {
       SageToken: sageTokenAddress,
       AgentRegistry: agentRegistryAddress,

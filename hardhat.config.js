@@ -23,15 +23,14 @@ module.exports = {
   },
   networks: {
     hardhat: {
-      chainId: 656476,
+      chainId: 5115,
     },
-    educhain: {
-      url:
-        process.env.EDUCHAIN_RPC ||
-        "https://rpc.open-campus-codex.gelato.digital",
-      chainId: 656476,
+    citrea: {
+      url: "https://rpc.testnet.citrea.xyz",
+      chainId: 5115,
       accounts: process.env.PRIVATE_KEY ? [process.env.PRIVATE_KEY] : [],
       gasPrice: "auto",
+      gasMultiplier: 1.2,
     },
   },
 };
